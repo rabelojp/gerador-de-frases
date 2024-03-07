@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(90deg, rgb(15, 163, 39), rgb(82, 226, 113));
+    padding-top: 2rem;
+}
+
+.quote {
+    font-family: Helvetica;
+    font-size: 1.9rem;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: .4rem;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.quote .text {
+    font-style: italic;
+    margin-bottom: 0.4rem;
+}
+
+.quote .author {
+    font-weight: bold;
+    color: #133110;
+    font-size: 2.5rem;
+}
+
+.button {
+    font-size: 1.6rem;
+    background-color: #0a2c07;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: .8rem 1.2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: #12520c;
+    color: gray;
+}
